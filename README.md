@@ -8,6 +8,7 @@ These ebuilds are created by me or found on the internet. Credit For those found
 ## Ebuilds found on the internet
 
 | Ebuild                              | Source           | Maintainer      | Link                                            |
+| :---------------------------------- | :--------------- | :-------------- | :---------------------------------------------- |
 | media-sound/pamixer                 | Menelkir Overlay | Daniel Menelkir | https://github.com/NuLL3rr0r/gentoo-overlay     |
 | app-shells/fast-syntax-highlighting | MV User Overlay  | Martin Vaeth    | https://gitweb.gentoo.org/user/mv.git/          |
 | app-misc/lf                         | Crocket Overlay  | Crocket         | https://github.com/crocket/crocket-overlay      |
