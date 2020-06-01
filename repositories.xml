@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<repositories version="1.0">
+	<repo quality="experimental" status="unofficial">
+		<name>glarbs-overlay</name>
+		<description lang="sv">Ett Gentoo överlägg som används av GLARBS.</description>
+		<description lang="en">A Gentoo overlay used by GLARBS.</description>
+		<homepage>https://wiki.gentoo.org/wiki/User:Et-8/GLARBS</homepage>
+		<owner type="person">
+			<email>et-8@emiliatrollros.se</email>
+			<name>Emilia Trollros</name>
+			</owner>
+		<source type="git">https://gitlab.com/et-8/glarbs-overlay.git</source>
+		<feed>https://gitlab.com/et-8/glarbs-overlay/commits/master.atom</feed>
+	</repo>
+</repositories>
