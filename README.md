@@ -1,6 +1,7 @@
 # GLARBS Overlay
 
 > A Gentoo overlay used by GLARBS.
+>
 > GLARBS = Luke Smith's LARBS modified for Gentoo by ET-8.
 
 **Tip:** If you test with a different arch keyword and it works, let me know so I can update the ebuild.
