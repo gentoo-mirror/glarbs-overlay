@@ -1,6 +1,7 @@
 # GLARBS Overlay
 
 > A Gentoo overlay used by GLARBS.
+
 TIP: If you test with a different arch keyword and it works, let me know so I can update the ebuild.
 
 NOTE: These ebuilds are created by me or found on the internet. Credit For those found on the internet are listed below.
