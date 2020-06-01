@@ -24,7 +24,7 @@
 This overlay isn't connected in any way to Gentoo official repositories.
 If you are using this repository, please report any issues by using the gitlab issue tracker.
 
-# How To Use This Overlay
+# How to use this overlay
 ## With Layman
 Invoke the following:
 
@@ -37,11 +37,14 @@ After performing these steps, the following should work (or any other package fr
 
 **root#** `emerge -av app-misc/lf`
 
-# GLARBS Guide
+# GLARBS guide
 Visit:[GLARBS at the Gentoo Wiki](https://wiki.gentoo.org/wiki/User:Et-8/GLARBS)
 
-# Gentoo Linux Website
+# GLARBS systemfiles and dotfiles
+Visit: [GLARBS repo](https://gitlab.com/et-8/glarbs)
+
+# Gentoo linux website
 Visit: [gentoo.org](https://gentoo.org)
 
-# LARBS Website
+# LARBS website
 Visit: [larbs.xyz](https://larbs.xyz)
