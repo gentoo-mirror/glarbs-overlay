@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>et-8@emiliatrollros.se</email>
+		<name>Emilia Trollros</name>
+	</maintainer>
+	<upstream>
+		<bugs-to>https://github.com/zdharma/fast-syntax-highlighting/issues</bugs-to>
+		<remote-id type="github">zdharma/fasth-syntax-highlighting</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		Feature rich syntax highlighting for Zsh.
+	</longdescription>
+	<longdescription lang="sv">
+		Funktionsrik syntaxmarkering för Zsh.
+	</longdescription>
+
+</pkgmetadata>
