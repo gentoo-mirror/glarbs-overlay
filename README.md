@@ -27,7 +27,7 @@ This overlay isn't connected in any way to Gentoo official repository. If you ar
 ## With Layman
 Invoke the following:
 
-**root#** `layman -o https://gitlab.com/et-8/glarbs-overlay/-/blob/master/repositories.xml -f -a glarbs-overlay`
+**root#** `layman -o  https://gitlab.com/et-8/glarbs-overlay/-/raw/master/repositories.xml -f -a glarbs-overlay`
 
 Or read the instructions at [the Gentoo Wiki](http://wiki.gentoo.org/wiki/Layman#Adding_custom_repositories).
 
