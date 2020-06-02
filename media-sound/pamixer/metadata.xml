@@ -5,7 +5,10 @@
 		<email>et-8@emiliatrollros.se</email>
 		<name>Emilia Trollros</name>
 	</maintainer>
-	<bugs-to>https://gitlab.com/et-8/glarbs-overlay/-/issues</bugs-to>
+	<upstream>
+		<bugs-to>https://github.com/cdemoulins/pamixer/issues</bugs-to>
+		<remote-id type="github">cdemoulins/pamixer</remote-id>
+	</upstream>
 	<longdescription lang="en">
 		Pulseaudio command-line mixer like amixer.
 	</longdescription>
