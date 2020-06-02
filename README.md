@@ -21,8 +21,7 @@
 
 # How to report bugs
 
-This overlay isn't connected in any way to Gentoo official repositories.
-If you are using this repository, please report any issues by using the gitlab issue tracker.
+This overlay isn't connected in any way to Gentoo official repository. If you are using this repository, please report any issues by using the gitlab issue tracker.
 
 # How to use this overlay
 ## With Layman
