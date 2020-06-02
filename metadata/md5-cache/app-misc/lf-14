@@ -1,0 +1,13 @@
+BDEPEND=>=dev-lang/go-1.12 app-arch/unzip
+DEFINED_PHASES=compile install postinst unpack
+DEPEND=dev-lang/go
+DESCRIPTION=a terminal file manager written in Go
+EAPI=7
+HOMEPAGE=https://github.com/gokcehan/lf
+KEYWORDS=~amd64
+LICENSE=MIT
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/gokcehan/lf/archive/r14.tar.gz -> lf-14.tar.gz mirror://goproxy//github.com/doronbehar/termbox-go/@v/v0.0.0-20191006141301-8c9470559e05.zip -> github.com%2Fdoronbehar%2Ftermbox-go%2F@v%2Fv0.0.0-20191006141301-8c9470559e05.zip mirror://goproxy//github.com/doronbehar/termbox-go/@v/v0.0.0-20191006141301-8c9470559e05.mod -> github.com%2Fdoronbehar%2Ftermbox-go%2F@v%2Fv0.0.0-20191006141301-8c9470559e05.mod mirror://goproxy//github.com/mattn/go-runewidth/@v/v0.0.4.zip -> github.com%2Fmattn%2Fgo-runewidth%2F@v%2Fv0.0.4.zip mirror://goproxy//github.com/mattn/go-runewidth/@v/v0.0.4.mod -> github.com%2Fmattn%2Fgo-runewidth%2F@v%2Fv0.0.4.mod mirror://goproxy//gopkg.in/djherbis/times.v1/@v/v1.2.0.zip -> gopkg.in%2Fdjherbis%2Ftimes.v1%2F@v%2Fv1.2.0.zip mirror://goproxy//gopkg.in/djherbis/times.v1/@v/v1.2.0.mod -> gopkg.in%2Fdjherbis%2Ftimes.v1%2F@v%2Fv1.2.0.mod
+_eclasses_=go-module	cca12a5688562f107c14ffcf28195dd7
+_md5_=8ca0adb421e51ea1d6916c6230483b25
