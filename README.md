@@ -6,7 +6,7 @@
 
 **Tip:** If you test with a different arch keyword and it works, let me know so I can update the ebuild.
 
-**Note:** These ebuilds are created by me or found on the internet. Credit for those found on the internet are listed below.
+**Note:** These ebuilds are created by me or found on the internet and edited by me. Credit for the ebuilds found on the internet are listed below.
 
 ## Ebuilds found on the internet
 
