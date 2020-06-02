@@ -12,7 +12,7 @@
 
 | Ebuild                              | Source           | Maintainer      | Link                                            |
 | :---------------------------------- | :--------------- | :-------------- | :---------------------------------------------- |
-| media-sound/pamixer                 | Menelkir Overlay | Daniel Menelkir | https://github.com/NuLL3rr0r/gentoo-overlay     |
+| media-sound/pamixer                 | Menelkir Overlay | Daniel Menelkir | https://gitlab.com/menelkir/gentoo-overlay      |
 | app-shells/fast-syntax-highlighting | MV User Overlay  | Martin Vaeth    | https://gitweb.gentoo.org/user/mv.git/          |
 | app-misc/lf                         | Crocket Overlay  | Crocket         | https://github.com/crocket/crocket-overlay      |
 | app-misc/task-spooler               | Crocket Overlay  | Crocket         | https://github.com/crocket/crocket-overlay      |
