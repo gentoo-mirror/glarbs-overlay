@@ -13,8 +13,6 @@ KEYWORDS="~amd64"
 IUSE="doc nocd xinerama"
 DOCS="README"
 
-S="${WORKDIR}/${PN}/${PF}"
-
 DEPEND=""
 RDEPEND="${DEPEND}
 		!app-shells/zsh-syntax-highlightning
