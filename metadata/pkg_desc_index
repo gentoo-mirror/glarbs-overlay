@@ -3,3 +3,4 @@ app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one a
 app-shells/fast-syntax-highlighting 1.5.5 99999999: Optimized and extended zsh-syntax-highlighting
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 www-client/brave-bin 1.9.76: Brave Web Browser
+x11-wm/glarbs 0.1: GLARBS is an efficient shell script that will install a fully-featured tiling window manager-based system on any Gentoo Linux-based system, without any of the routine of manual post-install processes and configuration.
