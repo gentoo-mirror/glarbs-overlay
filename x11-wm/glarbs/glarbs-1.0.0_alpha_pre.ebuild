@@ -30,6 +30,7 @@ pkg_preinst() {
 src_install() {
 
 	insinto /etc/skel/${PN}
+	doins -r *
 
 	# With the use flag doc is enabled.
 	if use doc; then
