@@ -5,7 +5,7 @@ EAPI=7
 
 DESCRIPTION="A fully-featured tiling window manager-based system for any Gentoo based system."
 HOMEPAGE="https://wiki.gentoo.org/wiki/User:Et-8/GLARBS"
-SRC_URI="https://gitlab.com/et-8/{PN}/-/archive/{PV}/{P}.tar.gz"
+SRC_URI="https://gitlab.com/et-8/${PN}/-/archive/${PV}/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
