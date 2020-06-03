@@ -25,7 +25,20 @@ This overlay isn't connected in any way to Gentoo official repository. If you ar
 
 # How to use this overlay
 ## With Layman
-Invoke the following:
+
+List contents of the remote list.
+
+**root** `layman -L`
+
+Update all overlays.
+
+**root** `layman -S`
+
+### Add glarbs-overlay automatically
+
+**root** `layman -a glarbs-overlay`
+
+### Add glarbs-overlay manually
 
 **root#** `layman -o  https://gitlab.com/et-8/glarbs-overlay/-/raw/master/repositories.xml -f -a glarbs-overlay`
 
@@ -34,7 +47,7 @@ Or read the instructions at [the Gentoo Wiki](http://wiki.gentoo.org/wiki/Layman
 # Installation
 After performing these steps, the following should work (or any other package from this overlay):
 
-**root#** `emerge -av app-misc/lf`
+**root#** `emerge -av x11-wm/glarbs`
 
 # GLARBS guide
 Visit:[GLARBS at the Gentoo Wiki](https://wiki.gentoo.org/wiki/User:Et-8/GLARBS)

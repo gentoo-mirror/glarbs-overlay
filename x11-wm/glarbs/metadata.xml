@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>et-8@emiliatrollros.se</email>
+		<name>Emilia Trollros</name>
+	</maintainer>
+	<upstream>
+		<maintainer>
+			<email>luke@lukesmith.xyz</email>
+			<name>Luke Smith</name>
+		</maintainer>
+		<bugs-to>https://github.com/LukeSmithxyz/voidrice/issues</bugs-to>
+		<remote-id type="git">https://github.com/LukeSmithxyz/voidrice</remote-id>
+		<doc>https://larbs.xyz/</doc>
+	</upstream>
+	<longdescription lang="en">
+		GLARBS is an efficient shell script that will install a fully-featured tiling window manager-based system on any Gentoo Linux-based system,
+		without any of the routine of manual post-install processes and configuration.
+	</longdescription>
+	<longdescription lang="sv">
+		GLARBS är ett effektivt skalskript som kommer att installera ett fullt utrustat sida-vid-sida fönsterhanteringsystem på alla Gentoo Linux-baserade system,
+		utan behov rutinerna för manuella efter-installations processer och konfiguration.
+	</longdescription>
+	<use>
+	<flag name="xinerama">Add support for querying multi-monitor screen geometry through the Xinerama API.</flag>
+	<flag name="doc">Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally.</flag>
+	</use>
+</pkgmetadata>
