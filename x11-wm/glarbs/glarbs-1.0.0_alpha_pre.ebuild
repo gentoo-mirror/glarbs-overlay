@@ -43,7 +43,7 @@ src_install() {
 	if use nocd; then
 
 		insinto $HOME
-		cp -r $workdir/home/username/*
+	doins -r $workdir/home/username/*
 
 	fi
 
