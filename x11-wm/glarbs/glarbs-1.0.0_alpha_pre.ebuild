@@ -40,10 +40,10 @@ src_install() {
 	fi
 
 	# With the use flag nocd is enabled.
-	if use nocd; then
+	if 	use nocd; then
 
 		insinto $HOME
-	doins -r $workdir/home/username/*
+		doins -r $workdir/home/username/*
 
 	fi
 
