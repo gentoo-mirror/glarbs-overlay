@@ -11,7 +11,7 @@
 			<name>Luke Smith</name>
 		</maintainer>
 		<bugs-to>https://github.com/LukeSmithxyz/voidrice/issues</bugs-to>
-		<remote-id type="git">https://github.com/LukeSmithxyz/voidrice</remote-id>
+		<remote-id type="github">LukeSmithxyz/voidrice</remote-id>
 		<doc>https://larbs.xyz/</doc>
 	</upstream>
 	<longdescription lang="en">
@@ -20,7 +20,7 @@
 	</longdescription>
 	<longdescription lang="sv">
 		GLARBS är ett effektivt skalskript som kommer att installera ett fullt utrustat sida-vid-sida fönsterhanteringsystem på alla Gentoo Linux-baserade system,
-		utan behov rutinerna för manuella efter-installations processer och konfiguration.
+		utan behovet  av rutinerna för manuella efter-installations processer och konfiguration.
 	</longdescription>
 	<use>
 	<flag name="xinerama">Add support for querying multi-monitor screen geometry through the Xinerama API.</flag>
