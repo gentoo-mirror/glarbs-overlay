@@ -16,10 +16,10 @@ DOCS="README"
 DEPEND=""
 RDEPEND="${DEPEND}
 		!app-shells/zsh-syntax-highlightning
-		"
+"
 BDEPEND=""
 
-pkg_preinst() {
+pkg_pretend() {
 	ewarn "GLARBS is in the early stages and will not work without further modification!"
 	elog "GLARBS follow Gentoo's default configurations and use OpenRC as init system."
 	elog "If you want to use Systemd, make the necessary changes in the corresponding files."
@@ -42,7 +42,8 @@ src_install() {
 	# With the use flag nocd is enabled.
 	if use nocd; then
 
-		cp -R /etc/skel/glarbs/home/username/* $HOME
+		insinto $HOME
+		cp -r $workdir/home/username/*
 
 	fi
 
