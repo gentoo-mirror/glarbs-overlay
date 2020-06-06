@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>et-8@emiliatrollros.se</email>
+		<name>Emilia Trollros</name>
+	</maintainer>
+	<upstream>
+		<maintainer>
+			<email>luke@lukesmith.xyz</email>
+			<name>Luke Smith</name>
+		</maintainer>
+		<bugs-to>https://github.com/LukeSmithxyz/dmenu/issues</bugs-to>
+		<remote-id type="github">LukeSmithxyz/dmenu</remote-id>
+		<doc>https://larbs.xyz/</doc>
+	</upstream>
+	<longdescription lang="en">
+		dmenu with setup for GLARBS.
+	</longdescription>
+	<longdescription lang="sv">
+		dmenu med inställningar för GLARBS.
+	</longdescription>
+	<use>
+	<flag name="xinerama">Add support for querying multi-monitor screen geometry through the Xinerama API.</flag>
+	<flag name="nocd">Install all files required to run the application.</flag>
+	<flag name="doc">Add extra documentation (README). It is recommended to enable per package instead of globally.</flag>
+</use>
+</pkgmetadata>
