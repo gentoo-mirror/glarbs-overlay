@@ -5,11 +5,18 @@ EAPI=7
 
 DESCRIPTION="A fully-featured tiling window manager-based system for any Gentoo based system."
 HOMEPAGE="https://wiki.gentoo.org/wiki/User:Et-8/GLARBS"
-SRC_URI="https://gitlab.com/et-8/${PN}/-/archive/${PV}/${P}.tar.gz"
+
+if [[ ${PV} == *9999 ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://gitlab.com/et-8/${PN}.git"
+	KEYWORDS=""
+else
+	SRC_URI="https://gitlab.com/et-8/${PN}/-/archive/${PV}/${P}.tar.gz"
+	KEYWORDS="~amd64"
+fi
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
 IUSE="doc nocd xinerama"
 DOCS="README"
 
