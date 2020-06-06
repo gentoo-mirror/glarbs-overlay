@@ -20,38 +20,29 @@ SLOT="0"
 IUSE="doc nocd xinerama"
 DOCS="README"
 
-DEPEND="x11-wm/glarbs-dwm
-		x11-misc/glarbs-dmenu
+DEPEND="x11-wm/glarbs
 "
 RDEPEND="${DEPEND}
-		!app-shells/zsh-syntax-highlightning
+		!x11-wm/dwm
 "
 BDEPEND=""
 
-pkg_pretend() {
-	ewarn "GLARBS is in the early stages and will not work without further modification!"
-	elog "GLARBS follow Gentoo's default configurations and use OpenRC as init system."
-	elog "If you want to use Systemd, make the necessary changes in the corresponding files."
-	einfo "GLARBS is meant to be as close to Luke's configuration as possible. This include the I3-window manager and pulseaudio."
-	einfo "Although using DWM and alsa with Gentoo is prefered."
-}
-
 src_install() {
 
-	insinto /etc/skel/${PN}
+	insinto /etc/skel/glarbs/.config/src/${PN}
 	doins -r *
 
-	# With the use flag doc is enabled.
+	# With the use flag doc enabled.
 	if use doc; then
 
 		einstalldocs
 
 	fi
 
-	# With the use flag nocd is enabled.
+	# With the use flag nocd enabled.
 	if 	use nocd; then
 
-		insinto $HOME
+		insinto $HOME/.config/src
 		doins -r *
 
 	fi
@@ -63,8 +54,7 @@ pkg_postinst() {
 		ewarn "unless you have made the use flag nocd enabled."
 		ewarn "Activating the use flag nocd should only be done on a new  system,"
 		ewarn "otherwise all your personal changes to the dotfiles and systemfiles vill be overwritten!"
-		elog "To fully uppgrade GLARBS, without the use flag nocd enabled, do this two steps:"
+		elog "To fully uppgrade GLARBS, without the use flag nocd enabled, do this one steps:"
 		optfeature "Use a diff and merge tool, like Meld to keep your own changes in those files." dev-util/meld
-		elog "1. Copy the systemfiles in /etc/skel/glarbs/etc/portage/* to /etc/portage/*"
-		elog "2. Copy the dotfiles in /etc/skel/glarbs/username/* to ~/*"
+		elog "1. Copy the folder dwm in /etc/skel/glarbs/ to ~/.config/src/"
 }
