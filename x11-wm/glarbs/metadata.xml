@@ -24,6 +24,7 @@
 	</longdescription>
 	<use>
 	<flag name="xinerama">Add support for querying multi-monitor screen geometry through the Xinerama API.</flag>
-	<flag name="doc">Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally.</flag>
+	<flag name="nocd">Install all files required to run the application.</flag>
+	<flag name="doc">Add extra documentation (README). It is recommended to enable per package instead of globally.</flag>
 	</use>
 </pkgmetadata>
