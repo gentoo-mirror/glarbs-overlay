@@ -9,4 +9,4 @@ LICENSE=GPL-3
 RDEPEND=x11-wm/glarbs !x11-misc/dmenu
 SLOT=0
 SRC_URI=https://gitlab.com/et-8/glarbs-dmenu/-/archive/1.0.0_alpha_pre20200606/glarbs-dmenu-1.0.0_alpha_pre20200606.tar.gz
-_md5_=49abbb86032a46c129786283cbd62644
+_md5_=cbbd251283979bbaec59ee5dcba4fe19
