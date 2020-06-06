@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>et-8@emiliatrollros.se</email>
+		<name>Emilia Trollros</name>
+	</maintainer>
+	<upstream>
+		<maintainer>
+			<email>luke@lukesmith.xyz</email>
+			<name>Luke Smith</name>
+		</maintainer>
+		<bugs-to>https://github.com/LukeSmithxyz/mutt-wizard/issues</bugs-to>
+		<remote-id type="github">LukeSmithxyz/mutt-wizard</remote-id>
+		<doc>https://larbs.xyz/</doc>
+	</upstream>
+	<longdescription lang="en">
+		mutt-wizard with setup for GLARBS.
+	</longdescription>
+	<longdescription lang="sv">
+		mutt-trollkarl med inställningar för GLARBS.
+	</longdescription>
+	<use>
+	<flag name="nocd">Install all files required to run the application.</flag>
+	<flag name="doc">Add extra documentation (README). It is recommended to enable per package instead of globally.</flag>
+</use>
+</pkgmetadata>
