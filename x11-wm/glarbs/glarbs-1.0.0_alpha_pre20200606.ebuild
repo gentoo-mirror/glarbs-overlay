@@ -13,7 +13,8 @@ KEYWORDS="~amd64"
 IUSE="doc nocd xinerama"
 DOCS="README"
 
-DEPEND=""
+DEPEND="x11-misc/glarbs-dmenu
+"
 RDEPEND="${DEPEND}
 		!app-shells/zsh-syntax-highlightning
 "
@@ -43,7 +44,7 @@ src_install() {
 	if 	use nocd; then
 
 		insinto $HOME
-		doins -r $workdir/home/username/*
+		doins -r *
 
 	fi
 
@@ -55,7 +56,7 @@ pkg_postinst() {
 		ewarn "Activating the use flag nocd should only be done on a new  system,"
 		ewarn "otherwise all your personal changes to the dotfiles and systemfiles vill be overwritten!"
 		elog "To fully uppgrade GLARBS, without the use flag nocd enabled, do this two steps:"
-		elog "Use a diff and merge tool, like dev-util/meld to keep your own changes in those files."
+		optfeature "Use a diff and merge tool, like Meld to keep your own changes in those files." dev-util/meld
 		elog "1. Copy the systemfiles in /etc/skel/glarbs/etc/portage/* to /etc/portage/*"
 		elog "2. Copy the dotfiles in /etc/skel/glarbs/username/* to ~/*"
 }
