@@ -20,7 +20,8 @@ SLOT="0"
 IUSE="doc nocd xinerama"
 DOCS="README"
 
-DEPEND="x11-misc/glarbs-dmenu
+DEPEND="x11-wm/glarbs-dwm
+		x11-misc/glarbs-dmenu
 "
 RDEPEND="${DEPEND}
 		!app-shells/zsh-syntax-highlightning

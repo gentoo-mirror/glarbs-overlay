@@ -3,8 +3,6 @@
 
 EAPI=7
 
-inherit git-r3
-
 DESCRIPTION="A fully-featured tiling window manager-based system for any Gentoo based system."
 HOMEPAGE="https://wiki.gentoo.org/wiki/User:Et-8/GLARBS"
 
@@ -22,7 +20,8 @@ SLOT="0"
 IUSE="doc nocd xinerama"
 DOCS="README"
 
-DEPEND="x11-misc/glarbs-dmenu
+DEPEND="x11-wm/glarbs-dwm
+		x11-misc/glarbs-dmenu
 "
 RDEPEND="${DEPEND}
 		!app-shells/zsh-syntax-highlightning
