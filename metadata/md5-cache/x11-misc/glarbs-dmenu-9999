@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install postinst unpack
+DEFINED_PHASES=compile install postinst test unpack
 DEPEND=x11-wm/glarbs
 DESCRIPTION=dmenu with setup for GLARBS.
 EAPI=7
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=x11-wm/glarbs !x11-misc/dmenu
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=2a1ab0912e0215ddccbfd9529c520eb2
+_md5_=379c5784ff7499624abee0a92238ae53
