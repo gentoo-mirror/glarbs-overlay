@@ -28,8 +28,8 @@ BDEPEND=""
 
 src_install() {
 
-	insinto /etc/skel/glarbs/${PN}
-	doins -r *
+	insinto /etc/skel/glarbs/.config/src/${PN}
+	cp -r *
 
 	# With the use flag doc is enabled.
 	if use doc; then
