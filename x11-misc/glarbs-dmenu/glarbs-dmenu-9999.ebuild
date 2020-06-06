@@ -26,10 +26,18 @@ RDEPEND="${DEPEND}
 "
 BDEPEND=""
 
+src_compile() {
+	:;
+}
+
+src_test() {
+	:;
+}
+
 src_install() {
 
 	insinto /etc/skel/glarbs/.config/src/${PN}
-	cp -r *
+	doins -r *
 
 	# With the use flag doc is enabled.
 	if use doc; then
