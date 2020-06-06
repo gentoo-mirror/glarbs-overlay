@@ -1,12 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst pretend unpack
+DEPEND=x11-misc/glarbs-dmenu
 DESCRIPTION=A fully-featured tiling window manager-based system for any Gentoo based system.
 EAPI=7
 HOMEPAGE=https://wiki.gentoo.org/wiki/User:Et-8/GLARBS
 IUSE=doc nocd xinerama
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=!app-shells/zsh-syntax-highlightning
+RDEPEND=x11-misc/glarbs-dmenu !app-shells/zsh-syntax-highlightning
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=f7eaf898f6962047905f181cae9ae039
+_md5_=2ec8b7a050cc7692cdddd116e196ac48

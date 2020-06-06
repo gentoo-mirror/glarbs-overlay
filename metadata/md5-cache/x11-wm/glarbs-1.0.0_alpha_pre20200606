@@ -1,11 +1,12 @@
 DEFINED_PHASES=install postinst pretend
+DEPEND=x11-misc/glarbs-dmenu
 DESCRIPTION=A fully-featured tiling window manager-based system for any Gentoo based system.
 EAPI=7
 HOMEPAGE=https://wiki.gentoo.org/wiki/User:Et-8/GLARBS
 IUSE=doc nocd xinerama
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=!app-shells/zsh-syntax-highlightning
+RDEPEND=x11-misc/glarbs-dmenu !app-shells/zsh-syntax-highlightning
 SLOT=0
-SRC_URI=https://gitlab.com/et-8/glarbs/-/archive/1.0.0_alpha_pre/glarbs-1.0.0_alpha_pre.tar.gz
-_md5_=2401e195229ff10363ab186f2e6e5163
+SRC_URI=https://gitlab.com/et-8/glarbs/-/archive/1.0.0_alpha_pre20200606/glarbs-1.0.0_alpha_pre20200606.tar.gz
+_md5_=f89bff57ae77ad21937c3859b2a24d36

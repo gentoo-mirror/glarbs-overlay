@@ -2,6 +2,9 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+x11-misc/glarbs-dmenu:doc - Add extra documentation (README). It is recommended to enable per package instead of globally.
+x11-misc/glarbs-dmenu:nocd - Install all files required to run the application.
+x11-misc/glarbs-dmenu:xinerama - Add support for querying multi-monitor screen geometry through the Xinerama API.
 x11-wm/glarbs:doc - Add extra documentation (README). It is recommended to enable per package instead of globally.
 x11-wm/glarbs:nocd - Install all files required to run the application.
 x11-wm/glarbs:xinerama - Add support for querying multi-monitor screen geometry through the Xinerama API.
