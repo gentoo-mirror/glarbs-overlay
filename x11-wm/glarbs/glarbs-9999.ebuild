@@ -31,14 +31,6 @@ RDEPEND="${DEPEND}
 "
 BDEPEND=""
 
-src_compile() {
-	:;
-}
-
-src_test() {
-	:;
-}
-
 pkg_pretend() {
 	ewarn "GLARBS is in the early stages and will not work without further modification!"
 	elog "GLARBS follow Gentoo's default configurations and use OpenRC as init system."
