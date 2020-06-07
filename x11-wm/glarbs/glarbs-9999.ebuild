@@ -21,7 +21,10 @@ IUSE="doc nocd xinerama"
 DOCS="README"
 
 DEPEND="x11-wm/glarbs-dwm
-		x11-misc/glarbs-dmenu
+	x11-misc/glarbs-dmenu
+	x11-misc/glarbs-dwmblocks
+	x11-terms/glarbs-st
+	app-misc/glarbs-mutt-wizard
 "
 RDEPEND="${DEPEND}
 		!app-shells/zsh-syntax-highlightning
