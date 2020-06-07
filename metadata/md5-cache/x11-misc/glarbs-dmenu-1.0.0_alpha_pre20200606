@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install postinst test
-DEPEND=x11-wm/glarbs
+DEPEND=
 DESCRIPTION=dmenu with setup for GLARBS.
 EAPI=7
 HOMEPAGE=https://wiki.gentoo.org/wiki/User:Et-8/GLARBS
 IUSE=doc nocd xinerama
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=x11-wm/glarbs !x11-misc/dmenu
+RDEPEND=!x11-misc/dmenu
 SLOT=0
 SRC_URI=https://gitlab.com/et-8/glarbs-dmenu/-/archive/1.0.0_alpha_pre20200606/glarbs-dmenu-1.0.0_alpha_pre20200606.tar.gz
-_md5_=9bf63b1d7b866311680404aea99b0d41
+_md5_=838554fc3718a6dee7f82b1bfa4e6193

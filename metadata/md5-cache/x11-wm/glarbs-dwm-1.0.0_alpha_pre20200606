@@ -1,12 +1,12 @@
-DEFINED_PHASES=install postinst
-DEPEND=x11-wm/glarbs
-DESCRIPTION=A fully-featured tiling window manager-based system for any Gentoo based system.
+DEFINED_PHASES=compile install postinst test
+DEPEND=
+DESCRIPTION=dwm with setup for GLARBS.
 EAPI=7
 HOMEPAGE=https://wiki.gentoo.org/wiki/User:Et-8/GLARBS
 IUSE=doc nocd xinerama
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=x11-wm/glarbs !x11-wm/dwm
+RDEPEND=!x11-wm/dwm
 SLOT=0
 SRC_URI=https://gitlab.com/et-8/glarbs-dwm/-/archive/1.0.0_alpha_pre20200606/glarbs-dwm-1.0.0_alpha_pre20200606.tar.gz
-_md5_=fec580962ed2d5740eb8d53c89d44fdc
+_md5_=48752f276ec0f041118ab25d170ca33b

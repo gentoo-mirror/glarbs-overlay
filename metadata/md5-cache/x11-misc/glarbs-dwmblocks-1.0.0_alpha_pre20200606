@@ -1,12 +1,12 @@
-DEFINED_PHASES=install postinst
-DEPEND=x11-wm/glarbs
+DEFINED_PHASES=compile install postinst test
+DEPEND=
 DESCRIPTION=dwmblocks with setup for GLARBS.
 EAPI=7
 HOMEPAGE=https://wiki.gentoo.org/wiki/User:Et-8/GLARBS
 IUSE=doc nocd xinerama
 KEYWORDS=~amd64
 LICENSE=GPL-3
-RDEPEND=x11-wm/glarbs
+RDEPEND=
 SLOT=0
 SRC_URI=https://gitlab.com/et-8/glarbs-dwmblocks/-/archive/1.0.0_alpha_pre20200606/glarbs-dwmblocks-1.0.0_alpha_pre20200606.tar.gz
-_md5_=74853bc1894e088e803e33203a6154b6
+_md5_=1ae928cbd69bd5be7c33e7ead698fc20

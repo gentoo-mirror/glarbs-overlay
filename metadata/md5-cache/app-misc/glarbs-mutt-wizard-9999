@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install postinst unpack
-DEPEND=x11-wm/glarbs mail-client/neomutt
+DEFINED_PHASES=compile install postinst test unpack
+DEPEND=mail-client/neomutt
 DESCRIPTION=mutt-wizard with setup for GLARBS.
 EAPI=7
 HOMEPAGE=https://wiki.gentoo.org/wiki/User:Et-8/GLARBS
 IUSE=doc nocd
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=x11-wm/glarbs mail-client/neomutt
+RDEPEND=mail-client/neomutt
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=4b3e7323198b560b4dc9eec49005eec3
+_md5_=96b1cca989a8aaaa026306374bf935dd

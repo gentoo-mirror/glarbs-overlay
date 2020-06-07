@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=install postinst unpack
-DEPEND=x11-wm/glarbs
+DEFINED_PHASES=compile install postinst test unpack
+DEPEND=
 DESCRIPTION=st with setup for GLARBS.
 EAPI=7
 HOMEPAGE=https://wiki.gentoo.org/wiki/User:Et-8/GLARBS
 IUSE=doc nocd
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=x11-wm/glarbs !x11-terms/st
+RDEPEND=!x11-terms/st
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=a4be3985a199d5329367dcdb07203737
+_md5_=e603f6c76266b6965eb4028436c6bad0
