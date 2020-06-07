@@ -10,6 +10,8 @@ x11-misc/glarbs-dmenu:xinerama - Add support for querying multi-monitor screen g
 x11-misc/glarbs-dwmblocks:doc - Add extra documentation (README). It is recommended to enable per package instead of globally.
 x11-misc/glarbs-dwmblocks:nocd - Install all files required to run the application.
 x11-misc/glarbs-dwmblocks:xinerama - Add support for querying multi-monitor screen geometry through the Xinerama API.
+x11-terms/glarbs-st:doc - Add extra documentation (README). It is recommended to enable per package instead of globally.
+x11-terms/glarbs-st:nocd - Install all files required to run the application.
 x11-wm/glarbs:doc - Add extra documentation (README). It is recommended to enable per package instead of globally.
 x11-wm/glarbs:nocd - Install all files required to run the application.
 x11-wm/glarbs:xinerama - Add support for querying multi-monitor screen geometry through the Xinerama API.
