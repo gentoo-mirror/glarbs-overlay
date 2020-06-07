@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install postinst pretend test unpack
+DEFINED_PHASES=install postinst pretend unpack
 DEPEND=app-misc/glarbs-mutt-wizard x11-misc/glarbs-dmenu x11-misc/glarbs-dwmblocks x11-terms/glarbs-st x11-wm/glarbs-dwm
 DESCRIPTION=A fully-featured tiling window manager-based system for any Gentoo based system.
 EAPI=7
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=app-misc/glarbs-mutt-wizard x11-misc/glarbs-dmenu x11-misc/glarbs-dwmblocks x11-terms/glarbs-st x11-wm/glarbs-dwm !app-shells/zsh-syntax-highlightning
 SLOT=0
 _eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=9be0f5e7170cfd4065d79ea5008d7544
+_md5_=00735ad9ec5dab55d4fa0b8c76b34a7f
