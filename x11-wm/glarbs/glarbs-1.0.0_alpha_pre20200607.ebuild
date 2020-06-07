@@ -39,14 +39,6 @@ pkg_pretend() {
 	einfo "Although using DWM and alsa with Gentoo is prefered."
 }
 
-src_compile() {
-	:;
-}
-
-src_test() {
-	:;
-}
-
 src_install() {
 
 	insinto /etc/skel/${PN}
