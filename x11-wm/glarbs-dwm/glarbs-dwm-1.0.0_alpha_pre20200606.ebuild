@@ -3,7 +3,7 @@
 
 EAPI=7
 
-DESCRIPTION="A fully-featured tiling window manager-based system for any Gentoo based system."
+DESCRIPTION="dwm with setup for GLARBS."
 HOMEPAGE="https://wiki.gentoo.org/wiki/User:Et-8/GLARBS"
 
 if [[ ${PV} == *9999 ]]; then
@@ -20,12 +20,20 @@ SLOT="0"
 IUSE="doc nocd xinerama"
 DOCS="README"
 
-DEPEND="x11-wm/glarbs
+DEPEND="
 "
 RDEPEND="${DEPEND}
-		!x11-wm/dwm
+	!x11-wm/dwm
 "
 BDEPEND=""
+
+src_compile() {
+	:;
+}
+
+src_test() {
+	:;
+}
 
 src_install() {
 
@@ -50,11 +58,13 @@ src_install() {
 }
 
 pkg_postinst() {
-		ewarn "GLARBS will never overwrite files in your home directory,"
-		ewarn "unless you have made the use flag nocd enabled."
-		ewarn "Activating the use flag nocd should only be done on a new  system,"
-		ewarn "otherwise all your personal changes to the dotfiles and systemfiles vill be overwritten!"
-		elog "To fully uppgrade GLARBS, without the use flag nocd enabled, do this one steps:"
-		optfeature "Use a diff and merge tool, like Meld to keep your own changes in those files." dev-util/meld
-		elog "1. Copy the folder dwm in /etc/skel/glarbs/ to ~/.config/src/"
+	ewarn "GLARBS will never overwrite files in your home directory,"
+	ewarn "unless you have made the use flag nocd enabled."
+	ewarn "Activating the use flag nocd should only be done on a new  system,"
+	ewarn "otherwise all your personal changes to the dotfiles and systemfiles vill be overwritten!"
+	elog "To fully uppgrade GLARBS, without the use flag nocd enabled, do this three steps:"
+	elog "1. Copy the folder dwmblocks in /etc/skel/glarbs/.config/src/ to ~/.config/src/"
+	elog "2. With root privileges run make clean install to install the changes."
+	elog "3. Restart the window manager."
+	optfeature "Use a diff and merge tool, like Meld to keep your own changes in those files." dev-util/meld
 }
