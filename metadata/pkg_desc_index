@@ -7,5 +7,5 @@ www-client/brave-bin 1.9.76: Brave Web Browser
 x11-misc/glarbs-dmenu 1.0.0_alpha_pre20200606 9999: dmenu with setup for GLARBS.
 x11-misc/glarbs-dwmblocks 1.0.0_alpha_pre20200606 9999: dwmblocks with setup for GLARBS.
 x11-terms/glarbs-st 1.0.0_alpha_pre20200606 9999: st with setup for GLARBS.
-x11-wm/glarbs 1.0.0_alpha_pre20200606 9999: A fully-featured tiling window manager-based system for any Gentoo based system.
+x11-wm/glarbs 1.0.0_alpha_pre20200606 1.0.0_alpha_pre20200607 9999: A fully-featured tiling window manager-based system for any Gentoo based system.
 x11-wm/glarbs-dwm 1.0.0_alpha_pre20200606 9999: dwm with setup for GLARBS.

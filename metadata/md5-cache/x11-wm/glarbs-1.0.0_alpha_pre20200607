@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst pretend test
+DEPEND=app-misc/glarbs-mutt-wizard x11-misc/glarbs-dmenu x11-misc/glarbs-dwmblocks x11-terms/glarbs-st x11-wm/glarbs-dwm
+DESCRIPTION=A fully-featured tiling window manager-based system for any Gentoo based system.
+EAPI=7
+HOMEPAGE=https://wiki.gentoo.org/wiki/User:Et-8/GLARBS
+IUSE=doc nocd xinerama
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=app-misc/glarbs-mutt-wizard x11-misc/glarbs-dmenu x11-misc/glarbs-dwmblocks x11-terms/glarbs-st x11-wm/glarbs-dwm !app-shells/zsh-syntax-highlightning
+SLOT=0
+SRC_URI=https://gitlab.com/et-8/glarbs/-/archive/1.0.0_alpha_pre20200607/glarbs-1.0.0_alpha_pre20200607.tar.gz
+_md5_=23d8ce7331c1b5566271c526de02f76b
