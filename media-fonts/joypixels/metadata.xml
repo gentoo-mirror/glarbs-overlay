@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>et-8@emiliatrollros.se</email>
+		<name>Emilia Trollros</name>
+	</maintainer>
+	<longdescription lang="en">
+		Emoji as a Service (formerly EmojiOne).
+	</longdescription>
+	<londescription lang="sv">
+		Emoji som en Tjänst (tidigare EmojiOne).
+	</longdescription>
+</pkgmetadata>
