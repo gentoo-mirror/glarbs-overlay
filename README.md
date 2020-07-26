@@ -10,13 +10,14 @@
 
 ## Ebuilds found on the internet
 
-| Ebuild                              | Source           | Maintainer      | Link                                            |
-| :---------------------------------- | :--------------- | :-------------- | :---------------------------------------------- |
-| media-sound/pamixer                 | Menelkir Overlay | Daniel Menelkir | https://gitlab.com/menelkir/gentoo-overlay      |
-| app-shells/fast-syntax-highlighting | MV User Overlay  | Martin Vaeth    | https://gitweb.gentoo.org/user/mv.git/          |
-| app-misc/lf                         | Crocket Overlay  | Crocket         | https://github.com/crocket/crocket-overlay      |
-| app-misc/task-spooler               | Crocket Overlay  | Crocket         | https://github.com/crocket/crocket-overlay      |
-| www-client/brave-bin                | Brave Overlay    | Jason Oliveira  | https://gitlab.com/jason.oliveira/brave-overlay |
+| Ebuild                              | Source           | Maintainer             | Link                                               |
+| :---------------------------------- | :--------------- | :--------------------- | :------------------------------------------------- |
+| media-sound/pamixer                 | Menelkir Overlay | Daniel Menelkir        | https://gitlab.com/menelkir/gentoo-overlay         |
+| app-shells/fast-syntax-highlighting | MV User Overlay  | Martin Vaeth           | https://gitweb.gentoo.org/user/mv.git/             |
+| app-misc/lf                         | Crocket Overlay  | Crocket                | https://github.com/crocket/crocket-overlay         |
+| app-misc/task-spooler               | Crocket Overlay  | Crocket                | https://github.com/crocket/crocket-overlay         |
+| www-client/brave-bin                | Brave Overlay    | Jason Oliveira         | https://gitlab.com/jason.oliveira/brave-overlay    |
+| media-fonts/joypixels               | Jorgicio Overlay | Jorge Pizarro Callejas |https://github.com/jorgicio/jorgicio-gentoo-overlay |
 
 
 # How to report bugs
