@@ -9,5 +9,5 @@ PROPERTIES=live
 RDEPEND=dev-libs/boost media-sound/pulseaudio[alsa]
 RESTRICT=mirror
 SLOT=0
-_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=91e8a85100cf36158028a462f4ce5f9f
