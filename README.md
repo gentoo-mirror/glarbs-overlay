@@ -29,15 +29,15 @@ This overlay isn't connected in any way to Gentoo official repository. If you ar
 
 List contents of the remote list.
 
-**root** `layman -L`
+**root#** `layman -L`
 
 Update all overlays.
 
-**root** `layman -S`
+**root#** `layman -S`
 
 #### Add glarbs-overlay automatically
 
-**root** `layman -a glarbs-overlay`
+**root#** `layman -a glarbs-overlay`
 
 #### Add glarbs-overlay manually
 
