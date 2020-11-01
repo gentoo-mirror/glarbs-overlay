@@ -48,24 +48,47 @@ Or read the instructions at [the Gentoo Wiki](http://wiki.gentoo.org/wiki/Layman
 ## Installation
 After performing these steps, the following should work (or any other package from this overlay):
 
-**root#** `emerge -av x11-wm/glarbs`
+**root#** `emerge --ask --verbose x11-wm/glarbs`
 
-### Install GLARBS guide
+## Install GLARBS guide
 
 Read the [GLARBS](https://wiki.gentoo.org/wiki/User:Et-8/GLARBS) guide on Et-8 Gentoo wiki userspace.
 
-## Links
+## GLARBS repositories
 
-### GLARBS overlay
+### GLARBS overlay (this repo.)
 Repository: [GLARBS overlay](https://gitlab.com/et-8/glarbs-overlay)
 
 ### GLARBS systemfiles
 Repository: [Deploy GLARBS](https://gitlab.com/et-8/glarbs-deploy)
 
+### GLARBS dotfiles
+Repository: [ GLARBS dotfiles](https://gitlab.com/et-8/glarbs-dotfiles)
+
+### GLARBS dwm
+Repository: [ GLARBS dwm](https://gitlab.com/et-8/glarbs-dwm)
+
+### GLARBS dwmblocks
+Repository: [ GLARBS dwmblocks](https://gitlab.com/et-8/glarbs-dwmblocks)
+
+### GLARBS dmenu
+Repository: [ GLARBS dmenu](https://gitlab.com/et-8/glarbs-dmenu)
+
+### GLARBS St
+Repository: [GLARBS st](https://gitlab.com/et-8/glarbs-st)
+
+### GLARBS mutt wizard
+Repository: [GLARBS mutt wizard](https://gitlab.com/et-8/glarbs-mutt-wizard)
+
+## Links
+
 ### GLARBS website
 Visit: [glarbs.xyz](https://glarbs.xyz)
 
-### Gentoo linux website
+### GLARBS documentation
+Visit: [docs.glarbs.xyz](https://docs.glarbs.xyz)
+
+### Gentoo website
 Visit: [gentoo.org](https://gentoo.org)
 
 ### LARBS website
