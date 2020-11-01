@@ -2,7 +2,7 @@
 
 > A Gentoo overlay used by GLARBS.
 >
-> GLARBS = Luke Smith's LARBS modified for Gentoo by ET-8.
+> GLARBS = Luke Smith's LARBS modified for Gentoo by ET-8 and contributors.
 
 **Tip:** If you test with a different arch keyword and it works, let me know so I can update the ebuild.
 
@@ -20,12 +20,12 @@
 | media-fonts/joypixels               | Jorgicio Overlay | Jorge Pizarro Callejas |https://github.com/jorgicio/jorgicio-gentoo-overlay |
 
 
-# How to report bugs
+## How to report bugs
 
 This overlay isn't connected in any way to Gentoo official repository. If you are using this repository, please report any issues by using the gitlab issue tracker.
 
-# How to use this overlay
-## With Layman
+## How to use this overlay
+### With Layman
 
 List contents of the remote list.
 
@@ -35,29 +35,38 @@ Update all overlays.
 
 **root** `layman -S`
 
-### Add glarbs-overlay automatically
+#### Add glarbs-overlay automatically
 
 **root** `layman -a glarbs-overlay`
 
-### Add glarbs-overlay manually
+#### Add glarbs-overlay manually
 
 **root#** `layman -o  https://gitlab.com/et-8/glarbs-overlay/-/raw/master/repositories.xml -f -a glarbs-overlay`
 
 Or read the instructions at [the Gentoo Wiki](http://wiki.gentoo.org/wiki/Layman#Adding_custom_repositories).
 
-# Installation
+## Installation
 After performing these steps, the following should work (or any other package from this overlay):
 
 **root#** `emerge -av x11-wm/glarbs`
 
-# GLARBS guide
-Visit:[GLARBS at the Gentoo Wiki](https://wiki.gentoo.org/wiki/User:Et-8/GLARBS)
+### Install GLARBS guide
 
-# GLARBS systemfiles and dotfiles
-Visit: [GLARBS repo](https://gitlab.com/et-8/glarbs)
+Read the [GLARBS](https://wiki.gentoo.org/wiki/User:Et-8/GLARBS) guide on Et-8 Gentoo wiki userspace.
 
-# Gentoo linux website
+## Links
+
+### GLARBS overlay
+Repository: [GLARBS overlay](https://gitlab.com/et-8/glarbs-overlay)
+
+### GLARBS systemfiles
+Repository: [Deploy GLARBS](https://gitlab.com/et-8/glarbs-deploy)
+
+### GLARBS website
+Visit: [glarbs.xyz](https://glarbs.xyz)
+
+### Gentoo linux website
 Visit: [gentoo.org](https://gentoo.org)
 
-# LARBS website
+### LARBS website
 Visit: [larbs.xyz](https://larbs.xyz)
