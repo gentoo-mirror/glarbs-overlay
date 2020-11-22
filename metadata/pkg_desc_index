@@ -4,7 +4,6 @@ app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one a
 app-shells/fast-syntax-highlighting 1.5.5 99999999: Optimized and extended zsh-syntax-highlighting
 media-fonts/joypixels 6.0.0: Emoji as a Service (formerly EmojiOne)
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
-www-client/brave-bin 1.11.101: Brave Web Browser
 x11-misc/glarbs-dmenu 1.0.0_alpha_pre20200606 9999: dmenu with setup for GLARBS.
 x11-misc/glarbs-dwmblocks 1.0.0_alpha_pre20200606 9999: dwmblocks with setup for GLARBS.
 x11-terms/glarbs-st 1.0.0_alpha_pre20200606 9999: st with setup for GLARBS.
