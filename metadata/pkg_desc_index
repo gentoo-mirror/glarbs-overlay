@@ -1,5 +1,5 @@
 app-misc/glarbs-mutt-wizard 1.0.0_alpha_pre20200606 9999: mutt-wizard with setup for GLARBS.
-app-misc/lf 14 15: a terminal file manager written in Go
+app-misc/lf 15 22: a terminal file manager written in Go
 app-misc/task-spooler 1.0: a Unix batch system where the tasks spooled run one after the other.
 app-shells/fast-syntax-highlighting 1.5.5 99999999: Optimized and extended zsh-syntax-highlighting
 media-fonts/joypixels 6.0.0: Emoji as a Service (formerly EmojiOne)
