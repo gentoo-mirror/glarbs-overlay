@@ -6,16 +6,20 @@
 		<name>Emilia Trollros</name>
 	</maintainer>
 	<upstream>
-		<remote-id>http://vicerveza.homeunix.net/~viric/soft/ts/</remote-id>
+		<maintainer>
+			<name>Lluís Batlle i Rossell</name>
+		</maintainer>
+		<changelog>https://vicerveza.homeunix.net/~viric/soft/ts/Changelog</changelog>
+		<doc lang="en">https://vicerveza.homeunix.net/~viric/soft/ts/</doc>
 	</upstream>
-	<longdescription>
+	<longdescription lang="en">
 		task spooler is a Unix batch system where the tasks spooled run one after the other. The amount of jobs to run at once can be set at any time.
 		Each user in each system has his own job queue. The tasks are run in the correct context (that of enqueue) from any shell/process,
 		and its output/results can be easily watched. It is very useful when you know that your commands depend on a lot of RAM, a lot of disk use,
 		give a lot of output, or for whatever reason it's better not to run them all at the same time, while you want to keep your resources busy for maximum benfit.
 		Its interface allows using it easily in scripts.
 	</longdescription>
-	<longdescription>
+	<longdescription lang="sv">
 		task spooler är ett Unix-batch-system där de spoolade uppgifterna körs efter varandra. Hur många jobb som ska köras på en gång kan ställas in när som helst.
 		Varje användare i varje system har sin egen jobbkö. Uppgifterna körs i rätt sammanhang (det för köer) från alla skal/processer, och dess utdata/resultat kan enkelt ses.
 		Det är mycket användbart när du vet att dina kommandon är beroende av mycket RAM, mycket skivanvändning, ger mycket utdata, eller av någon anledning att det är det bättre att inte köra dem samtidigt,
