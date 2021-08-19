@@ -1,4 +1,4 @@
-# Copyright 2020 Gentoo Authors
+# Copyright 2020-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -23,7 +23,7 @@ DOCS="README"
 DEPEND="app-misc/glarbs-mutt-wizard
 	x11-misc/glarbs-dmenu
 	x11-misc/glarbs-dwmblocks
-	x11-terms/glarbs-st	
+	x11-terms/glarbs-st
 	x11-wm/glarbs-dwm
 "
 RDEPEND="${DEPEND}
