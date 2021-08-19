@@ -9,4 +9,4 @@ LICENSE=GPL-3
 RDEPEND=app-misc/glarbs-mutt-wizard x11-misc/glarbs-dmenu x11-misc/glarbs-dwmblocks x11-terms/glarbs-st x11-wm/glarbs-dwm !app-shells/zsh-syntax-highlightning
 SLOT=0
 SRC_URI=https://gitlab.com/et-8/glarbs/-/archive/1.0.0_alpha_pre20200607/glarbs-1.0.0_alpha_pre20200607.tar.gz
-_md5_=00735ad9ec5dab55d4fa0b8c76b34a7f
+_md5_=863e314262d5faca13ffd12d069b5f0d
