@@ -43,10 +43,8 @@ src_test() {
 src_install() {
 	emake PREFIX="${D}/usr" install
 
-	# With the use flag doc is enabled.
+	# When the use flag doc is enabled.
 	if use doc; then
-
 		einstalldocs
-
 	fi
 }
