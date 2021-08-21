@@ -25,4 +25,10 @@
 		Det är mycket användbart när du vet att dina kommandon är beroende av mycket RAM, mycket skivanvändning, ger mycket utdata, eller av någon anledning att det är det bättre att inte köra dem samtidigt,
 		medan du vill behålla dina resurser upptagna för maximal fördel. Dess gränssnitt gör det enkelt att använda det i skript.
 	</longdescription>
+	<use lang="en">
+		<flag name="doc">Add extra documentation (API, Javadoc, etc). It is recommended to enable per package instead of globally</flag>
+	</use>
+	<use lang="sv">
+		<flag name="doc">Lägg till extra dokumentation (API, Javadoc, etc). Det rekommenderas att aktivera per paket istället för globalt</flag>
+	</use>
 </pkgmetadata>

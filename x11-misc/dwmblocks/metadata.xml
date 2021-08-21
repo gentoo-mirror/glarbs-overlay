@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>et-8@emiliatrollros.se</email>
+		<name>Emilia Trollros</name>
+	</maintainer>
+	<upstream>
+		<maintainer>
+			<name>torrinfail</name>
+		</maintainer>
+		<bugs-to>https://github.com/torrinfail/dwmblocks/issues</bugs-to>
+		<remote-id type="github">torrinfail/dwmblocks</remote-id>
+	</upstream>
+	<longdescription lang="en">
+		Modular status bar for dwm written in c.
+	</longdescription>
+	<longdescription lang="sv">
+		Modulärt statusfält för dwm skrivet i c.
+	</longdescription>
+</pkgmetadata>
