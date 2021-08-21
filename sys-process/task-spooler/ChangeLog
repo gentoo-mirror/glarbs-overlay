@@ -1,0 +1,34 @@
+# ChangeLog for sys-process/task-spooler
+# Copyright 1999-2021 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+  20 Aug 2021; Emilia Trollros <et-8@emiliatrollros.se>
+  -ts-0.7.2.ebuild, +ts-1.0.1.ebuild:
+  Version bump. To avoid collision with other packages the ebuild is renamed from sys-process/ts to sys-process/task-spooler
+  Ebuild based on the one from Gentto's Sunrise overlay.
+  https://gitweb.gentoo.org/proj/sunrise.git/tree/sys-process/ts
+  
+  09 Apr 2012; Michael Palimaka (kensington) <kensington@astralcloak.net>
+  ts-0.7.2.ebuild:
+  Execute tests more portably thanks to mgorny.
+
+*ts-0.7.2 (08 Apr 2012)
+
+  08 Apr 2012; Michael Palimaka (kensington) <kensington@astralcloak.net>
+  -ts-0.6.6.ebuild, +ts-0.7.2.ebuild:
+  Version bump. Add blockers to fix bug #285276. Don't install useless
+  documentation. Thanks to everyone in #gentoo-sunrise for feedback and review.
+
+  17 Jan 2010; Carles Pagès (page) <page@cubata.homelinux.net>
+  -ts-0.6.4.ebuild, +ts-0.6.6.ebuild:
+  Version bump for ts-0.6.6
+
+  16 Mar 2009; Carles Pagès (page) <page@cubata.homelinux.net>
+  -ts-0.5.3.ebuild, +ts-0.6.4.ebuild:
+  Version bump to 0.6.4
+
+  19 Mar 2008; Tiziano Müller <dev-zero@gentoo.org> +ts-0.5.3.ebuild,
+  +metadata.xml:
+  First commit. Ebuild based on the one from Lluís Batlle i Rossell (bug
+  #198909).
+
