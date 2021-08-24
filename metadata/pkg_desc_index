@@ -1,6 +1,5 @@
 app-misc/lf 15 22: a terminal file manager written in Go
 app-shells/fast-syntax-highlighting 1.5.5 99999999: Optimized and extended zsh-syntax-highlighting
-media-fonts/joypixels 6.0.0: Emoji as a Service (formerly EmojiOne)
 media-sound/pamixer 1.4 9999: Pulseaudio command line mixer.
 sys-process/task-spooler 1.0.1: A comfortable way of running batch jobs
 x11-misc/dwmblocks 1.0.0 9999: Modular status bar for dwm written in c.
