@@ -13,7 +13,6 @@
 | :---------------------------------- | :------------------------------- | :-------------------------------------------------------------------------------------- |
 | app-misc/lf                         | 22                               | [Crocket Overlay](https://github.com/crocket/crocket-overlay)                           |
 | app-shells/fast-syntax-highlighting | 1.5.5                            | [MV User Overlay](https://gitweb.gentoo.org/user/mv.git/)                               |
-| media-fonts/joypixels               | 6.0.0                            | [Jorgicio Overlay](https://github.com/jorgicio/jorgicio-gentoo-overlay)                 |
 | media-sound/pamixer                 | 1.4                              | [Menelkir Overlay](https://gitlab.com/menelkir/gentoo-overlay)                          |
 | sys-process/task-spooler            | 1.0.1                            | [Sunrise Overlay](https://gitweb.gentoo.org/proj/sunrise.git/) ***OVERLAY DEPRECATED*** |
 | x11-misc/dwmblocks                  | 1.0.0                            |                                                                                         |
