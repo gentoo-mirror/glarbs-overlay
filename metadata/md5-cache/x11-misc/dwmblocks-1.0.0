@@ -10,5 +10,5 @@ LICENSE=ISC
 RDEPEND=x11-wm/dwm
 SLOT=0
 SRC_URI=https://github.com/et-8/dwmblocks/archive/refs/tags/1.0.0.tar.gz
-_eclasses_=portability	d1186f1e621de7b27ddcae82e6253259	savedconfig	ed1a8cb208fa9ffa1861271194406651	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988
+_eclasses_=portability	d1186f1e621de7b27ddcae82e6253259	savedconfig	7cb1bf66b4acedc4f06802a012d3b08d	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988
 _md5_=8220b08aaada6a50468eac2b285c5bf6
