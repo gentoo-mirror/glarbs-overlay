@@ -10,5 +10,5 @@ LICENSE=MIT
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/gokcehan/lf/archive/r15.tar.gz -> lf-15.tar.gz mirror://goproxy//github.com/doronbehar/termbox-go/@v/v0.0.0-20200711071547-71407e3bfa14.zip -> github.com%2Fdoronbehar%2Ftermbox-go%2F@v%2Fv0.0.0-20200711071547-71407e3bfa14.zip mirror://goproxy//github.com/doronbehar/termbox-go/@v/v0.0.0-20200711071547-71407e3bfa14.mod -> github.com%2Fdoronbehar%2Ftermbox-go%2F@v%2Fv0.0.0-20200711071547-71407e3bfa14.mod mirror://goproxy//github.com/mattn/go-runewidth/@v/v0.0.9.zip -> github.com%2Fmattn%2Fgo-runewidth%2F@v%2Fv0.0.9.zip mirror://goproxy//github.com/mattn/go-runewidth/@v/v0.0.9.mod -> github.com%2Fmattn%2Fgo-runewidth%2F@v%2Fv0.0.9.mod mirror://goproxy//gopkg.in/djherbis/times.v1/@v/v1.2.0.zip -> gopkg.in%2Fdjherbis%2Ftimes.v1%2F@v%2Fv1.2.0.zip mirror://goproxy//gopkg.in/djherbis/times.v1/@v/v1.2.0.mod -> gopkg.in%2Fdjherbis%2Ftimes.v1%2F@v%2Fv1.2.0.mod
-_eclasses_=go-module	82631624a3653e595cf9c18164a8c500
+_eclasses_=go-module	6be3eb7a42e4cecb88f18356a783ee35
 _md5_=bcd6de1b3b04f0ec35ee7463d4d5efd8
